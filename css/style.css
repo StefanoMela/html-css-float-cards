@@ -15,10 +15,6 @@ img {
   margin: 0 auto;
 }
 
-.debug {
-  border: 1px solid red;
-}
-
 /* SPECIFIC */
 
 .title {
@@ -39,13 +35,13 @@ main > p {
 }
 
 .card {
-  min-height: 60px;
   width: calc((100% / 3) - 10px);
   float: left;
   margin-top: 40px;
   background-color: #0e0f17;
   color: white;
   margin-left: 10px;
+  box-shadow: 5px 10px 8px #141414;
 }
 
 .card * {
@@ -53,12 +49,17 @@ main > p {
 }
 
 .card img {
-  width: 30%;
+  width: 100px;
 }
 
 .name {
   font-size: 1rem;
   text-transform: uppercase;
   font-weight: bolder;
-  padding-bottom: 3px;
+  margin-top: 9px;
+  line-height: 5px;
+}
+
+.text-container {
+    float: left;
 }

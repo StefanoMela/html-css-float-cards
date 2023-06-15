@@ -6,10 +6,17 @@
     padding: 0;
 }
 
+img{
+    max-width: 100%;
+}
+
 .container{
     max-width: 80%;
     margin: 0 auto;
-    border: 1px solid black;
+}
+
+.debug{
+    border: 1px solid red;
 }
 
 
@@ -18,5 +25,24 @@
 .title{
     text-align: center;
     color: #E53070;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 10px 0 40px;
+}
+
+.clearfix::after{
+    content: "";
+    display: inline-block;
+    clear: both;
+}
+
+
+.card{
+    min-height: 60px;
+    width: calc(100% / 3);
+    float:left;
+    margin-top: 40px;
+}
+
+main > p{
+    text-align: center;
 }

@@ -41,10 +41,11 @@ main > p{
 }
 
 .card img{
-    width: 100px;
+    height: 100px;
     float: left;
 }
- 
+
 .text-container{
     padding: 10px 10px;
+    float: left;
 }
